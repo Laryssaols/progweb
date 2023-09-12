@@ -1,0 +1,143 @@
+header{
+    font-family: monospace;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgb(77, 79, 77);
+}
+
+main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+
+table{
+    border-collapse: collapse;
+    margin-top: 30px;
+}
+
+th,td{
+    border: 1px solid  rgb(77, 79, 77);
+    width: 120px;
+    height: 120px;
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #FF4A1C;
+}
+
+h2{
+    font-family: monospace;
+    color: rgb(77, 79, 77);
+    margin: 15px;
+}
+
+#ima{
+    width: 50px;
+    height: 50px;
+}
+
+
+#menu{
+    top: 0;
+    left: 0;
+    position: absolute;
+}
+
+#player{
+    width: 350px;
+    border-radius: 50px;
+    border: 2px solid #FF4A1C;
+    display: flex;
+    justify-content: space-between;
+    color: rgb(77, 79, 77);
+}
+
+#jogador{
+    display: flex;
+}
+
+img{
+    margin-top: 10px;
+    width: 30px;
+    height: 30px;
+}
+
+body{
+    background-color: rgb(245, 239, 194);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+footer{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    bottom: 0;
+    width: 100%;
+    background-color: #FF4A1C;
+    position: absolute;
+    height: 20px;
+    color: #f0f0f0;
+    padding-top: 5px;
+}
+
+#menu{
+    margin:10px;
+}
+
+#Trocavez{
+    margin-top: 0;
+}
+
+#vez{
+    border: 2px solid #FF4A1C; 
+    border-radius: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    position: absolute;
+    left: 20vw;
+    width: 200px;
+    height: 100px;
+    margin-right: 50px;
+}
+
+#login{
+    color: rgb(77, 79, 77);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 20px;
+    justify-content: center;
+}
+
+button{
+        background-color: #ff4719;
+        color: #fff;
+        font-family:Arial, Helvetica, sans-serif;
+        font-size: 24px;
+        padding: 10px 20px;
+        border: none;
+        border-radius: 50px;
+        cursor: pointer;
+        margin-top: 50px;
+        display: inline-block;
+        color: white; /* Cor do texto do botão */
+        text-decoration: none; /* Remove sublinhado padrão para links */
+        transition: background-color 0.3s, color 0.3s;
+}  
+.button:hover {
+    background-color:#f16643;
+    color: #f0f0f0; 
+}
+
+
+
+
+
